@@ -23,12 +23,12 @@
 
     ```sh
     PORT=<server_port>
-    CONNECTION_STRING=<your_mongodb_connection_string>
+    CONNECTION_STRING=<mongodb_connection_string>
     ```
 
 4.  **Change CORS settings.**
 
-    If you aren't developing for the official [Thesys website](https://www.thesys.com.br/)\_, you will need to change the url's located in index.json, to point to your domain
+    If you aren't developing for the official [Thesys website](https://www.thesys.com.br/), you will need to change the url's located in index.json, to point to your domain
 
     ```js
     const whitelist = [
