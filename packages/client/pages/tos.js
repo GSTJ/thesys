@@ -14,7 +14,7 @@ import {
 export default () => (
   <Analytics>
     <Head>
-      <title>Avante | Política de Privacidade</title>
+      <title>Thesys | Política de Privacidade</title>
       <link rel="canonical" href="https://www.thesys.com.br/tos" />
     </Head>
     <Navbar />

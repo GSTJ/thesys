@@ -35,7 +35,7 @@ import Strapi from "strapi-sdk-javascript";
 const { NODE_ENV } = process.env;
 const production = NODE_ENV === "production";
 const url = production
-  ? "https://avante-cms.herokuapp.com"
+  ? "https://Thesys-cms.herokuapp.com"
   : "http://localhost:1337";
 
 const strapi = new Strapi(url);
@@ -95,7 +95,7 @@ export default () => {
   return (
     <Analytics>
       <Head>
-        <title>Avante | Remoção de dados</title>
+        <title>Thesys | Remoção de dados</title>
         <link rel="canonical" href="https://www.thesys.com.br/remove" />
       </Head>
       <Navbar />

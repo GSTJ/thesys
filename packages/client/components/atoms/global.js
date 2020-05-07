@@ -63,18 +63,18 @@ export default () => (
     <Head>
       <meta
         name="description"
-        content="Comunidade de debates para desenvolver o pensamento crítico. Reflita, comente e debata!"
+        content="A digital platform for sharing legal knowledge"
       />
 
       <meta name="twitter:card" content="summary_large_image"></meta>
 
       <meta property="og:locale" content="pt_BR" />
       <meta property="og:url" content="https://www.thesys.com.br" />
-      <meta property="og:title" content="Comunidade de debates" />
-      <meta property="og:site_name" content="Avante" />
+      <meta property="og:title" content="Thesis marketplace" />
+      <meta property="og:site_name" content="Thesys" />
       <meta
         property="og:description"
-        content="Comunidade de debates para desenvolver o pensamento crítico. Reflita, comente e debata!"
+        content="A digital platform for sharing legal knowledge"
       />
       <meta property="og:type" content="website" />
 
@@ -86,11 +86,11 @@ export default () => (
     <div>
       <CookiesProvider cookies={cookies}>
         <CookieBannerUniversal
-          message="Esse website utiliza cookies"
-          buttonMessage="Fechar"
+          message="This website uses cookies"
+          buttonMessage="Close"
           styles={styles}
           dismissOnScrollThreshold={300}
-          link={<a href="/cookies">Saiba mais</a>}
+          link={<a href="/cookies">Learn more</a>}
         />
       </CookiesProvider>
     </div>

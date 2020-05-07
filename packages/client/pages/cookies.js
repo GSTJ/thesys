@@ -13,7 +13,7 @@ import {
 export default () => (
   <Analytics>
     <Head>
-      <title>Avante | Política de Cookies</title>
+      <title>Thesys | Política de Cookies</title>
       <link rel="canonical" href="https://www.thesys.com.br/cookies" />
     </Head>
     <Navbar />
