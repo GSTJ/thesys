@@ -22,10 +22,10 @@ const url = production
 export default () => {
   const [open, setOpen] = useState(false);
   const [error, setError] = useState({});
-  const [nome, setNome] = useState("");
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
 
-  const handleNomeChange = (e) => setNome(e.target.value);
+  const handleNameChange = (e) => setName(e.target.value);
   const handleEmailChange = (e) => setEmail(e.target.value);
 
   const Validate = useCallback(
@@ -38,7 +38,7 @@ export default () => {
 
       fetch(url, {
         method: "POST",
-        body: JSON.stringify({ email, nome }),
+        body: JSON.stringify({ email, name }),
         headers: { "Content-Type": "application/json" },
       })
         .then((res) => res.json())
@@ -51,7 +51,7 @@ export default () => {
           setOpen(true);
         });
     },
-    [isEmail, isMobilePhone, setError, setOpen, email, nome, error]
+    [isEmail, isMobilePhone, setError, setOpen, email, name, error]
   );
 
   const handleClose = useCallback((e) => setOpen(false), [setOpen]);
@@ -83,19 +83,19 @@ export default () => {
         <EmailContainer onSubmit={Validate}>
           <FormControl error>
             <Input
-              error={!!error.nome}
+              error={!!error.name}
               label="Name"
               placeholder="Write your full name"
-              value={nome}
-              onChange={handleNomeChange}
+              value={name}
+              onChange={handleNameChange}
               margin="normal"
               variant="outlined"
               required
-              aria-describedby="nome-error-text"
+              aria-describedby="name-error-text"
             />
-            {error.nome && (
-              <ErrorMessage id="nome-error-text">
-                {error.nome.message}
+            {error.name && (
+              <ErrorMessage id="name-error-text">
+                {error.name.message}
               </ErrorMessage>
             )}
           </FormControl>
