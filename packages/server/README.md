@@ -28,7 +28,7 @@
 
 4.  **Change CORS settings.**
 
-    If you aren't developing for the official [Thesys website](https://www.thesys.com.br/), you will need to change the url's located in index.json, to point to your domain
+    If you aren't developing for the official [Thesys website](https://www.thesys.com.br/), you will need to change the url's located in index.json to point to your domain
 
     ```js
     const whitelist = [
