@@ -14,7 +14,7 @@ export default function components() {
   return (
     <Analytics>
       <Head>
-        <title>Thesys | Desenvolva seu pensamento crítico</title>
+        <title>Thesys | Share legal knowledge</title>
         <link rel="canonical" href="https://www.thesys.com.br" />
       </Head>
       <Navbar />

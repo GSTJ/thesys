@@ -63,7 +63,7 @@ export default () => (
     <Head>
       <meta
         name="description"
-        content="A digital platform for sharing legal knowledge"
+        content="Digital platform for sharing legal knowledge"
       />
 
       <meta name="twitter:card" content="summary_large_image"></meta>
@@ -74,7 +74,7 @@ export default () => (
       <meta property="og:site_name" content="Thesys" />
       <meta
         property="og:description"
-        content="A digital platform for sharing legal knowledge"
+        content="Digital platform for sharing legal knowledge"
       />
       <meta property="og:type" content="website" />
 

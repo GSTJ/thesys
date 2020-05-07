@@ -16,8 +16,8 @@ import InputMask from "react-input-mask";
 const { NODE_ENV } = process.env;
 const production = NODE_ENV === "production";
 const url = production
-  ? "https://thesys.herokuapp.com/inscricao"
-  : "http://localhost:8082/inscricao";
+  ? "https://thesys.herokuapp.com/subscription"
+  : "http://localhost:8082/subscription";
 
 export default () => {
   const [open, setOpen] = useState(false);
