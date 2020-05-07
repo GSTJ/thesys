@@ -35,7 +35,8 @@ export const Box = styled.div`
 `;
 export const Laywer = styled.img`
   position: relative;
-  top: 15px;
+  left: 12.5px;
+  top: 25px;
   animation: bounce 1s ease-in infinite;
   z-index: 1;
 `;

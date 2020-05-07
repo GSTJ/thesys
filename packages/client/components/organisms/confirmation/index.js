@@ -8,7 +8,7 @@ export default ({ onClose, open, ...rest }) => (
     <Focus {...rest}>
       {open && (
         <Box>
-          <Laywer src="/static/happy_laywer.svg" height={150} width={150} />
+          <Laywer src="/static/happy_lawyer.svg" height={150} width={150} />
           <Shadow />
           <Container>
             <Title.h2>
