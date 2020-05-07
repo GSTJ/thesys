@@ -41,7 +41,7 @@ Thesys is a digital platform for sharing legal knowledge. The platform in itself
 
 ## Why was it built?
 
-We built Thesys for the GLH (Global Legal Hackathon) Semi-finals.
+We built Thesys for GLH (Global Legal Hackathon) semi-finals.
 We had the idea while realizing the time it takes to find a legal Thesis on our country (Brazil), and how little we used one after writing it. So, we decided to give lawyers the ability to reach those looking for their thesis and provide it, either free (for recognition) or paid through our platform.
 
 ## What was it built on?
