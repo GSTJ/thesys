@@ -1,0 +1,56 @@
+{
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.4.0",
+    "express": "^4.17.1",
+    "material-ui-phone-number": "^2.1.0",
+    "react": "^16.9.0",
+    "react-cookie-banner": "^4.0.0",
+    "react-dom": "^16.9.0",
+    "react-dropzone": "^10.2.1",
+    "react-ga": "^2.6.0",
+    "react-input-mask": "^2.0.4",
+    "react-scroll": "^1.7.14",
+    "react-typist": "^2.0.5",
+    "strapi-sdk-javascript": "^0.3.3",
+    "styled-components": "^4.3.2",
+    "validator": "^11.1.0"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^4.3.2",
+    "@zeit/next-css": "^1.0.1",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "imagemin-optipng": "^7.0.0",
+    "imagemin-svgo": "^7.0.0",
+    "next": "^9.0.5",
+    "next-compose-plugins": "^2.2.0",
+    "next-images": "^1.1.2",
+    "next-optimized-images": "^2.5.3",
+    "prettier": "^1.18.2",
+    "webp-loader": "^0.5.0"
+  },
+  "name": "thesys",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "A thesis marketplace landing page to generate leads",
+  "keywords": [
+    "landing page",
+    "leads",
+    "thesis",
+    "marketplace"
+  ],
+  "author": "Thesys"
+}
