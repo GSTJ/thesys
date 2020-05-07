@@ -5,11 +5,24 @@ import cors from "cors";
 import { subscription } from "./routes";
 
 dotenv.config();
-const { CONNECTION_STRING, PORT, URL } = process.env;
+const { CONNECTION_STRING, PORT } = process.env;
+
+var whitelist = [
+  "http://thesys.com.br",
+  "https://thesys.com.br",
+  "http://www.thesys.com.br",
+  "https://www.thesys.com.br",
+];
 
 var corsOptions = {
-  origin: URL,
   optionsSuccessStatus: 200,
+  origin: function (origin, callback) {
+    if (whitelist.indexOf(origin) !== -1) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
 };
 
 const app = express();
