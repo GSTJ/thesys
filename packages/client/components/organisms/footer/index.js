@@ -76,7 +76,7 @@ export default () => {
             <br />
             <br />
             Put your contact bellow if you wan't to buy or sell a thesis and we
-            will contact you as soon as possible
+            will get in contact as soon as possible
           </span>
         </Alert>
 

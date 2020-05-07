@@ -42,11 +42,11 @@ export default () => {
             <ErrorContainer>
               <Error>404</Error>
               <ErrorMessage>
-                Oops, parece que <span>você se perdeu</span> no debate.
+                Oops, seems like <span>you lost yourself</span>.
               </ErrorMessage>
               <Link href="/">
                 <Button stroked radius="100px">
-                  voltar
+                  Go back
                 </Button>
               </Link>
             </ErrorContainer>
