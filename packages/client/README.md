@@ -27,11 +27,11 @@
 
 ## 🚀 Building
 
-    Once you're done developing, you can simply build and export the project to static files
+Once you're done developing, you can simply build and export the project to static files
 
-    ```sh
-    yarn build && yarn export
-    ```
+```sh
+yarn build && yarn export
+```
 
 _This repo is the frontend of [Thesys Backend!](https://github.com/GSTJ/ThesysBackend)_
 
