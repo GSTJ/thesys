@@ -10,7 +10,7 @@ const Subscription = new Schema({
     lowercase: true,
     validate: [isEmail, "Please, type a valid e-mail!"],
   },
-  nome: {
+  name: {
     type: String,
     required: [true, "You forgot to type the name ;)"],
   },
