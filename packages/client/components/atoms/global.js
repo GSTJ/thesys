@@ -96,7 +96,11 @@ export default () => {
             buttonMessage="Close"
             styles={styles}
             dismissOnScrollThreshold={300}
-            link={<a href="/cookies">Learn more</a>}
+            link={
+              <Link href="/cookies">
+                <a>Learn more</a>
+              </Link>
+            }
           />
         </CookiesProvider>
       </div>
