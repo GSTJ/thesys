@@ -98,7 +98,7 @@ export default () => {
             dismissOnScrollThreshold={300}
             link={
               <Link href="/cookies">
-                <a>Learn more</a>
+                <a> Learn more</a>
               </Link>
             }
           />
