@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import {
@@ -6,12 +6,14 @@ import {
   CookiesProvider,
   CookieBannerUniversal,
 } from "react-cookie-banner";
+
 const cookies = new Cookies();
 
 const styles = {
   banner: {
     height: 57,
-    background: "rgba(52, 64, 81, 0.88) url(/cookie.png) 20px 50% no-repeat",
+    background:
+      "rgba(52, 64, 81, 0.88) url(/static/cookie.svg) 20px 50% no-repeat",
     backgroundSize: "30px 30px",
     backgroundColor: "",
     fontSize: "15px",
@@ -50,49 +52,54 @@ const styles = {
   },
 };
 
-export default () => (
-  <>
-    <style jsx global>{`
-      body,
-      html {
-        padding: 0;
-        margin: 0;
-        font-family: "Helvetica Neue Lt Std", Helvetica Neue, sans-serif;
-      }
-    `}</style>
-    <Head>
-      <meta
-        name="description"
-        content="Digital platform for sharing legal knowledge"
-      />
-
-      <meta name="twitter:card" content="summary_large_image"></meta>
-
-      <meta property="og:locale" content="pt_BR" />
-      <meta property="og:url" content="https://www.thesys.com.br" />
-      <meta property="og:title" content="Thesis marketplace" />
-      <meta property="og:site_name" content="Thesys" />
-      <meta
-        property="og:description"
-        content="Digital platform for sharing legal knowledge"
-      />
-      <meta property="og:type" content="website" />
-
-      <meta property="og:image" content="https://www.thesys.com.br/cover.png" />
-      <meta property="og:image:type" content="image/jpeg" />
-      <meta property="og:image:width" content="800" />
-      <meta property="og:image:height" content="600" />
-    </Head>
-    <div>
-      <CookiesProvider cookies={cookies}>
-        <CookieBannerUniversal
-          message="This website uses cookies"
-          buttonMessage="Close"
-          styles={styles}
-          dismissOnScrollThreshold={300}
-          link={<a href="/cookies">Learn more</a>}
+export default () => {
+  return (
+    <>
+      <style jsx global>{`
+        body,
+        html {
+          padding: 0;
+          margin: 0;
+          font-family: "Helvetica Neue Lt Std", Helvetica Neue, sans-serif;
+        }
+      `}</style>
+      <Head>
+        <meta
+          name="description"
+          content="Digital platform for sharing legal knowledge"
         />
-      </CookiesProvider>
-    </div>
-  </>
-);
+
+        <meta name="twitter:card" content="summary_large_image"></meta>
+
+        <meta property="og:locale" content="pt_BR" />
+        <meta property="og:url" content="https://www.thesys.com.br" />
+        <meta property="og:title" content="Thesis marketplace" />
+        <meta property="og:site_name" content="Thesys" />
+        <meta
+          property="og:description"
+          content="Digital platform for sharing legal knowledge"
+        />
+        <meta property="og:type" content="website" />
+
+        <meta
+          property="og:image"
+          content="http://www.thesys.com.br/static/cover.png"
+        />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="800" />
+        <meta property="og:image:height" content="600" />
+      </Head>
+      <div>
+        <CookiesProvider cookies={cookies}>
+          <CookieBannerUniversal
+            message="This website uses cookies"
+            buttonMessage="Close"
+            styles={styles}
+            dismissOnScrollThreshold={300}
+            link={<a href="/cookies">Learn more</a>}
+          />
+        </CookiesProvider>
+      </div>
+    </>
+  );
+};

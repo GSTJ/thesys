@@ -1,5 +1,7 @@
 # Thesys
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/17d64968-e9e7-4733-b46c-4dfb9a4b7eb0/deploy-status)](https://app.netlify.com/sites/optimistic-easley-e6332b/deploys)
+
 ## 🚀 Getting started
 
 1.  **Clone the repository**

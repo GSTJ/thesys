@@ -31,25 +31,23 @@ export default () => {
   const Validate = useCallback(
     async (e) => {
       e.preventDefault();
-      if (!isEmail(email))
+      if (!isEmail(email)) {
         return setError({
           email: { message: "Invalid e-mail!" },
         });
+      }
 
-      fetch(url, {
+      const data = await fetch(url, {
         method: "POST",
         body: JSON.stringify({ email, name }),
         headers: { "Content-Type": "application/json" },
-      })
-        .then((res) => res.json())
-        .then((data) => {
-          console.log(error);
-          if (data.errors) return setError(data.errors);
-          if (!data._id) return setError("Unknown error");
+      }).then((res) => res.json());
 
-          setError({});
-          setOpen(true);
-        });
+      if (data.errors) return setError(data.errors);
+      if (!data._id) return setError("Unknown error");
+
+      setError({});
+      setOpen(true);
     },
     [isEmail, isMobilePhone, setError, setOpen, email, name, error]
   );
