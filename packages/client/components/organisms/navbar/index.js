@@ -20,7 +20,7 @@ export default () => {
           <img alt="E-mail" src="/static/email.svg" height={25} width={25} />
         </a>
         <a
-          href="https://www.instagram.com/thesys_brasil/"
+          href="https://www.instagram.com/thesys.marketplace/"
           rel="noreferrer"
           target="_blank"
         >
