@@ -79,7 +79,7 @@ export default () => (
           <strong>Nome/Razão Social</strong>: Gabriel Sozza Taveira José
         </p>
         <p>
-          <strong>E-mail</strong>: suporte@thesys.com.br
+          <strong>E-mail</strong>: support@thesys.com.br
         </p>
         <p>
           Os dados pessoais que nos fornecer, sempre com o seu consentimento
@@ -221,7 +221,7 @@ export default () => (
         <p>
           Como titular dos dados que nos tenha fornecido, pode exercer em
           qualquer momento os seus direitos de acesso, retificação, cancelamento
-          e oposição, enviando-nos um e-mail para suporte@thesys.com.br e
+          e oposição, enviando-nos um e-mail para support@thesys.com.br e
           anexando uma fotocópia do seu documento de identidade como prova
           válida.
         </p>
@@ -237,7 +237,7 @@ export default () => (
           Igualmente, você poderá cancelar a qualquer momento para deixar de
           receber a nosso newsletter ou qualquer outra comunicação comercial,
           diretamente a partir do mesmo endereço de e-mail que você recebeu ou
-          enviando-nos um e-mail para suporte@thesys.com.br
+          enviando-nos um e-mail para support@thesys.com.br
         </p>
         <h3>ACESSO A DADOS POR PARTE DE TERCEIROS</h3>
         <p>

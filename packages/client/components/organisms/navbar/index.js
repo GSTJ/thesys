@@ -16,7 +16,7 @@ export default () => {
         </a>
       </Link>
       <Icons>
-        <a href="mailto:suporte@thesys.com.br" rel="noreferrer" target="_blank">
+        <a href="mailto:support@thesys.com.br" rel="noreferrer" target="_blank">
           <img alt="E-mail" src="/static/email.svg" height={25} width={25} />
         </a>
         <a

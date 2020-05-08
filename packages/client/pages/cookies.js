@@ -637,7 +637,7 @@ export default () => (
           Espero que esta política de cookies tenha servido de ajuda, e se você
           tiver qualquer dúvida basta{" "}
           <a
-            href="mailto:suporte@thesys.com.br"
+            href="mailto:support@thesys.com.br"
             target="_blank"
             rel="nofollow noopener"
           >
@@ -648,7 +648,7 @@ export default () => (
         <p>
           Se você tiver qualquer dúvida sobre esta{" "}
           <strong>Política de Cookies</strong>, você pode entrar em contato
-          conosco enviando um e-mail para suporte@thesys.com.br.
+          conosco enviando um e-mail para support@thesys.com.br.
         </p>
       </div>
     </Container>
