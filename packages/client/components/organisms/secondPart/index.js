@@ -15,13 +15,13 @@ export default () => {
         <Information>
           <Title.h2>
             <p>Experienced lawyer?</p>
-            You can <span>money</span> and <span>fame</span> with your{" "}
-            <span>thesis</span>
+            You can earn <span>money</span> and <span>recognition</span> with
+            your <span>thesis</span>
           </Title.h2>
           <Description>
             We are glad to help you sell your thesis to other lawyers around the
-            country who might need it. Contact us so we can make you money as
-            soon as possible!
+            country who might need it. Contact us so we can make you get money
+            and recognition (from your peers) as soon as possible!
           </Description>
         </Information>
       </Container>

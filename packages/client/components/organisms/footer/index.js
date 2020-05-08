@@ -59,7 +59,7 @@ export default () => {
       <Confirmation open={open} onClose={handleClose} />
       <Container>
         <Title.h2>
-          Get in <span>contact</span>
+          <span>Contact</span> us
         </Title.h2>
         <Alert>
           <img
@@ -74,7 +74,7 @@ export default () => {
             <br />
             <br />
             Put your contact bellow if you wan't to buy or sell a thesis and we
-            will get in contact as soon as possible
+            will be in touch with you as soon as possible
           </span>
         </Alert>
 
