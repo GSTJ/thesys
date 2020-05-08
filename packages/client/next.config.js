@@ -60,7 +60,6 @@ module.exports = withPlugins([
         "/": { page: "/" },
         "/cookies": { page: "/cookies" },
         "/tos": { page: "/tos" },
-        "/remove": { page: "/remove" },
       };
     },
   },
