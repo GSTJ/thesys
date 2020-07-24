@@ -1,4 +1,7 @@
 {
+  "name": "@thesys/client",
+  "version": "1.0.0",
+  "main": "next.config.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -39,17 +42,5 @@
     "next-optimized-images": "^2.5.3",
     "prettier": "^1.18.2",
     "webp-loader": "^0.5.0"
-  },
-  "name": "thesys",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "description": "A thesis marketplace landing page to generate leads",
-  "keywords": [
-    "landing page",
-    "leads",
-    "thesis",
-    "marketplace"
-  ],
-  "author": "Thesys"
+  }
 }

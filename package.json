@@ -1,0 +1,28 @@
+{
+  "name": "thesys",
+  "description": "Thesys is a marketplace for sharing legal knowledge",
+  "version": "1.0.0",
+  "author": "Gabriel Sozza Taveira José <gabrielstaveira@gmail.com>",
+  "private": true,
+  "keywords": [
+    "global legal hackathon",
+    "GLH",
+    "server",
+    "landing page",
+    "leads",
+    "thesis",
+    "marketplace"
+  ],
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@thesys/eslint-config": "*"
+  }
+}
