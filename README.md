@@ -15,8 +15,7 @@
 
 * [Installation](#construction_worker-installation)
 * [FAQ](#postbox-faq)
-* [Found a bug? Missing a specific feature?](#bug-issues)
-* [Contributing](#tada-contributing)
+* [Contributing - Found a bug? Missing a specific feature?](#bug-issues)
 * [License](#closed_book-license)
 
 <p align="center">
@@ -78,8 +77,7 @@ Next.js, React, Styled-components and Material-UI
 
 Node.js, Express and MongoDB
 
-# :bug: Issues
-
+# :tada: Contributing + :bug: Issues
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
@@ -93,16 +91,9 @@ If you already found a solution to your problem, **I would love to review your p
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-# :tada: Contributing
-
-Check out the [contributing](https://github.com/GSTJ/Thesys/blob/master/CONTRIBUTING.md) page to see the best places to file issues, start discussions, and begin contributing.
-
 # :closed_book: License
 
 Released in 2019.
 This project is under the [MIT license](https://github.com/GSTJ/Thesys/master/LICENSE).
 
-Made with ♥ by [Gabriel Taveira](https://github.com/GSTJ) 🚀
-
-
-
+Made with 💖 by [Gabriel Taveira](https://github.com/GSTJ) 🚀
