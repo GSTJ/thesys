@@ -25,32 +25,29 @@
 
 # :construction_worker: Installation
 
-### Step 1°
+1. Install [Node.js](https://nodejs.org/en/download/) and [Yarn](https://yarnpkg.com/)
 
-**Install [Node.js](https://nodejs.org/en/download/) and [Yarn](https://yarnpkg.com/)**
+2. Clone the repository 
 
-### Step 2°
+   #### Via HTTPS
 
-#### Clone the repository 
-Via HTTPS
+    ```git clone https://github.com/GSTJ/Thesys.git```
 
-```git clone https://github.com/GSTJ/Thesys.git```
+   #### Via SSH
 
-Or, if you have an SSH key registered in your Github account, clone the project using this command:
+    ```git clone git@github.com:GSTJ/Thesys.git```
 
-```git clone git@github.com:GSTJ/Thesys.git```
+3. Follow further instructions
 
-### Step 3°
+    This is a monorepo, so there are two projects here with different instructions.
 
-This is a monorepo, so there are two projects here with different instructions.
+    #### 💻 Client
 
-#### 💻 Client
+    https://github.com/GSTJ/Thesys/tree/master/packages/client
 
-https://github.com/GSTJ/Thesys/tree/master/packages/client
+    #### 👨‍💻 Server
 
-#### 👨‍💻 Server
-
-https://github.com/GSTJ/Thesys/tree/master/packages/server
+    https://github.com/GSTJ/Thesys/tree/master/packages/server
 
 # :postbox: FAQ
 
