@@ -72,11 +72,13 @@ For those who are interested in getting more information on this project: https:
 
 Here are some of them:
 
-#### Server
+#### 💻 Client
 
 Next.js, React, Styled-components and Material-UI
 
-#### Client
+#### 👨‍💻 Server
+
+Node.js, Express and MongoDB
 
 # :bug: Issues
 
