@@ -15,7 +15,7 @@
 
 * [Installation](#construction_worker-installation)
 * [FAQ](#postbox-faq)
-* [Contributing - Found a bug? Missing a specific feature?](#bug-issues)
+* [Contributing - Found a bug? Missing a specific feature?](#tada-contributing--bug-issues)
 * [License](#closed_book-license)
 
 <p align="center">
