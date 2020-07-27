@@ -22,8 +22,8 @@
 * [License](#closed_book-license)
 
 <p align="center">
-  <img src="https://i.imgur.com/cHRaaBa.gif" alt="Mobile version" border="0"  height="350">
-  <img src="https://i.imgur.com/znqEuDs.gif" alt="Desktop version" border="0" height="350">
+  <img src="https://i.imgur.com/cHRaaBa.gif" alt="Mobile version" border="0"  height="300">
+  <img src="https://i.imgur.com/znqEuDs.gif" alt="Desktop version" border="0" height="300">
 </p>
 
 # :construction_worker: Installation
