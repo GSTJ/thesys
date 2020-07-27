@@ -1,5 +1,3 @@
-
-
 #  <img src="https://d33wubrfki0l68.cloudfront.net/370ae4842ec728b588f44e0ecdd5b3939e2368b0/bb3a4/static/logo.svg" height="50"/>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/17d64968-e9e7-4733-b46c-4dfb9a4b7eb0/deploy-status)](https://app.netlify.com/sites/optimistic-easley-e6332b/deploys)
