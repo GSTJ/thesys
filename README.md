@@ -9,7 +9,7 @@
 
 >  A marketplace for sharing legal knowledge!
 
----
+--- ---
 
 # :pushpin: Table of Contents
 
@@ -25,21 +25,17 @@
 
 # :construction_worker: Installation
 
-1. Install [Node.js](https://nodejs.org/en/download/) and [Yarn](https://yarnpkg.com/)
+1. **Install [Node.js](https://nodejs.org/en/download/) and [Yarn](https://yarnpkg.com/)**
 
-2. Clone the repository 
+2. **Clone the repository**
 
-   #### Via HTTPS
+   Via HTTPS: `git clone https://github.com/GSTJ/Thesys.git`
 
-    ```git clone https://github.com/GSTJ/Thesys.git```
+   Via SSH: `git clone git@github.com:GSTJ/Thesys.git`
 
-   #### Via SSH
+3. **Follow further instructions**
 
-    ```git clone git@github.com:GSTJ/Thesys.git```
-
-3. Follow further instructions
-
-    This is a monorepo, so there are two projects here with different instructions.
+    This repository is a monorepo, so there are two projects here with different instructions.
 
     #### 💻 Client
 
@@ -55,7 +51,7 @@
 
 Thesys is a digital platform for sharing legal knowledge. I built it for the GLH (Global Legal Hackathon) semi-finals.
 
-Realizing the time it takes to find a legal thesis on our country (Brazil), we started building a tool to help people find the right legal thesis, without going through a lot of trial and error.
+Realizing the time it takes to find a legal thesis on our country (Brazil), we started building a tool to help people find the right argument, without going through a lot of trial and error.
 
 The platform is not only for legal research and education but also for professional development.
 
@@ -68,19 +64,19 @@ Here are some of them:
 
 #### 💻 Client
 
-Next.js, React, Styled-components and Material-UI
+Next.js, React, Styled-components, and Material-UI
 
 #### 👨‍💻 Server
 
-Node.js, Express and MongoDB
+Node.js, Express, and MongoDB
 
 # :tada: Contributing + :bug: Issues
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+They make the open-source community such a fantastic place to learn, inspire, and create. Any contributions you make are much appreciated.
 
 Feel free to **file a new issue** with a respective title and description on the [Thesys](https://github.com/GSTJ/Thesys/issues) repository.
 
-If you already found a solution to your problem, **I would love to review your pull request**! 
+If you already found a solution to your problem, **I would love to review your pull request**!
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -90,7 +86,6 @@ If you already found a solution to your problem, **I would love to review your p
 
 # :closed_book: License
 
-Released in 2019.
-This project is under the [MIT license](https://github.com/GSTJ/Thesys/master/LICENSE).
+The project was released in 2019 and is under the [MIT license](https://github.com/GSTJ/Thesys/master/LICENSE).
 
-Made with 💖 by [Gabriel Taveira](https://github.com/GSTJ) 🚀
+Made with 💖 by [**Gabriel Taveira**](https://github.com/GSTJ)  🚀
