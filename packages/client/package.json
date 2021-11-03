@@ -21,7 +21,7 @@
     "react-scroll": "^1.7.14",
     "react-typist": "^2.0.5",
     "styled-components": "^4.3.2",
-    "validator": "^11.1.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "@svgr/webpack": "^4.3.2",
