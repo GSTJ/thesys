@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@material-ui/core": "^4.4.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "material-ui-phone-number": "^2.1.0",
     "react": "^16.9.0",
     "react-cookie-banner": "^4.0.0",
